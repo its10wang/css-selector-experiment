@@ -1,0 +1,35 @@
+body,html{
+  font-family: sans-serif;
+  background-image: url(animal.jpg);
+  background-size: cover;
+
+}
+div{
+  display: block;
+}
+
+.siteTitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color:hotpink;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.gameIntro{
+display: flex;
+text-align: center;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 200px;
+margin-right: 200px;
+color: pink;
+}
+.videos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
